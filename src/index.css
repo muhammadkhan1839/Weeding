@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #242220;
+    background-color: #FAF8F5;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom aesthetic accents */
+.bg-warm-canvas {
+  background-color: #FAF8F5;
+}
+
+.bg-champagne-light {
+  background-color: #F5EFEB;
+}
+
+.text-gold-accent {
+  color: #A37E52;
+}
+
+.border-gold-accent {
+  border-color: #D9C3AC;
+}
+
+/* Smooth transitions */
+* {
+  border-color: #EAE3DC;
+}

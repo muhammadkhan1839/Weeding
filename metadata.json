@@ -1,0 +1,6 @@
+{
+  "name": "Étoile Wedding Planning & Design Studio",
+  "description": "Luxury modern wedding planning, design, and coordination studio with bespoke booking and management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
